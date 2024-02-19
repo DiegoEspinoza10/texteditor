@@ -1,0 +1,82 @@
+.editorcomp {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .button button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button button:hover {
+    background-color: #45a049;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+  
+  textarea.analysis {
+    height: 100px;
+  }
+  
+  /* Icons */
+  
+  .bold svg,
+  .italian svg,
+  .underline svg,
+  .size svg,
+  .align svg,
+  .quotes svg,
+  .caseChange svg,
+  .Empty svg,
+  .analyse svg {
+    font-size: 1.5em;
+  }
+  
+  /* Customize icon button styles */
+  
+  .bold button,
+  .italian button,
+  .underline button,
+  .size button,
+  .align button,
+  .quotes button,
+  .caseChange button,
+  .Empty button,
+  .analyse button {
+    background-color: #ff9800;
+  }
+  
+  .bold button:hover,
+  .italian button:hover,
+  .underline button:hover,
+  .size button:hover,
+  .align button:hover,
+  .quotes button:hover,
+  .caseChange button:hover,
+  .Empty button:hover,
+  .analyse button:hover {
+    background-color: #f57c00;
+  }
+  
